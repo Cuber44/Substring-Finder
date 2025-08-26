@@ -15,3 +15,5 @@ if __name__ == '__main__':
     string = input("Enter the string: ")
     substring = input("Enter the substring: ")
     result = StringCounter(string, substring)
+    print(result)
+    
