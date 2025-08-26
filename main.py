@@ -12,6 +12,6 @@ def StringCounter(string, substring):
     return count
 
 if __name__ == '__main__':
-    string = ""
-    substring = ""
+    string = input("Enter the string: ")
+    substring = input("Enter the substring: ")
     result = StringCounter(string, substring)
